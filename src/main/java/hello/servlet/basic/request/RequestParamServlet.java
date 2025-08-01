@@ -15,7 +15,7 @@ import java.util.Enumeration;
  * http://localhost:8080/request-param?username=hello&age=20
  */
 
-@WebServlet(name = "RequestParamServlet", urlPatterns = "/request-param")
+@WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
